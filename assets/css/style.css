@@ -1,0 +1,19 @@
+
+body {
+    background-image: url("images/wood-background.jpeg")
+}
+
+#main-holder {
+    background-color: black;
+    height: 500px;
+    margin-top: 50px;
+}
+
+#main-body {
+    height: 40px;
+    width: 100px;
+    float: right;
+    background-color: white;
+    padding-top: 100px;
+    margin-top: 200px;
+}
