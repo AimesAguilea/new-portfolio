@@ -9,3 +9,9 @@ $("#block-one").on("click", function(){
 })
 
 
+function mouseOver() {
+    $(".link-name").show();
+}
+function mouseOut() {
+    $(".link-name").hide();
+}

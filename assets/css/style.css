@@ -39,13 +39,13 @@ body {
 }
 
 #block-one:hover {
-    padding-bottom: 350px;
+    padding-bottom: 225px;
 }
 #block-two:hover {
-    padding-bottom: 275px;
+    padding-bottom: 175px;
 }
 #block-three:hover {
-    padding-bottom: 200px;
+    padding-bottom: 125px;
 }
 
 h1 {
@@ -69,4 +69,60 @@ h1 {
     background-color: black;
     height: 500px;
     margin-top: 150px;
+}
+
+#port-link-holder {
+    height: 200px;
+}
+
+.portfolio-link {
+    height: 20px;
+    width: 200px;
+    float: left;
+    background-color: white;
+    margin-top: 150px;
+    margin-left: 10px;
+    box-shadow: 3px 3px #727171;
+}
+
+/* .portfolio-link:hover {
+    padding-top: 225px;
+    color: white;
+    background-image: url("images/train3.jpeg");
+} */
+
+.link-name {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contact-form {
+    float: left;
+    width: 450px;
+}
+
+label {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#train-link:hover {
+    padding-top: 200px;
+    color: white;
+    background-image: url("images/train.jpeg");
+    box-shadow: 3px 3px #727171;
+}
+
+#gif-link:hover {
+    padding-top: 200px;
+    color: white;
+    background-image: url("images/gifTastic2.jpeg");
+    box-shadow: 3px 3px #727171;
+}
+
+#jewel-link:hover {
+    padding-top: 200px;
+    color: white;
+    background-image: url("images/jewel.jpeg");
+    box-shadow: 3px 3px #727171;
 }
