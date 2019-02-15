@@ -6,14 +6,67 @@ body {
 #main-holder {
     background-color: black;
     height: 500px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
-#main-body {
-    height: 40px;
+#block-one {
+    height: 20px;
     width: 100px;
     float: right;
     background-color: white;
-    padding-top: 100px;
-    margin-top: 200px;
+    margin-top: 15px;
+    margin-left: 10px;
+    box-shadow: 3px 3px #727171;
+    /* box-shadow: 3px 3px rgb(255, 188, 62); */
+}
+#block-two {
+    height: 20px;
+    width: 100px;
+    float: right;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+    box-shadow: 3px 3px #727171;
+}
+#block-three {
+    height: 20px;
+    width: 100px;
+    float: right;
+    background-color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+    box-shadow: 3px 3px #727171;
+}
+
+#block-one:hover {
+    padding-bottom: 350px;
+}
+#block-two:hover {
+    padding-bottom: 275px;
+}
+#block-three:hover {
+    padding-bottom: 200px;
+}
+
+h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#name {
+    padding-top: 30px;
+}
+
+#greeting {
+    width: 500px;
+    float: left;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 230px;
+}
+
+#about-me {
+    background-color: black;
+    height: 500px;
+    margin-top: 150px;
 }
