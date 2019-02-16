@@ -11,6 +11,8 @@ body {
 
 #block-one {
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
     color: black;
     height: 20px;
     width: 100px;
@@ -22,6 +24,8 @@ body {
 }
 #block-two {
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
     color: black;
     height: 20px;
     width: 100px;
@@ -33,6 +37,8 @@ body {
 }
 #block-three {
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
     color: black;
     height: 20px;
     width: 100px;
