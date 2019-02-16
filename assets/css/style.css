@@ -18,7 +18,6 @@ body {
     margin-top: 15px;
     margin-left: 10px;
     box-shadow: 3px 3px #727171;
-    /* box-shadow: 3px 3px rgb(255, 188, 62); */
 }
 #block-two {
     text-align: center;
@@ -167,4 +166,77 @@ label {
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 15px;
+}
+
+@media (max-width: 725px) {
+    #block-one {
+        width: 75px;
+    }
+    #block-two {
+        width: 75px;
+    }
+    #block-three {
+        width: 75px;
+    }
+
+    #bio {
+        width: 500px;
+    }
+    .para {
+        font-size: 13px;
+    }
+    .portfolio-link {
+        width: 125px;
+    }
+}
+
+@media (max-width: 600px) {
+    #block-one {
+        width: 50px;
+    }
+    #block-two {
+        width: 50px;
+    }
+    #block-three {
+        width: 50px;
+    }
+
+    #bio {
+        width: 500px;
+    }
+    .para {
+        font-size: 12px;
+    }
+    .portfolio-link {
+        width: 125px;
+    }
+}
+
+@media (max-width: 420px) {
+    #block-one {
+        width: 50px;
+    }
+    #block-two {
+        width: 50px;
+    }
+    #block-three {
+        width: 50px;
+    }
+    #contact-holder {
+        width: 375px;
+        margin-top: 15px;
+    }
+    #greeting {
+        width: 375px;
+        margin-top: 200px;
+    }
+    #bio {
+        width: 350px;
+    }
+    .para {
+        font-size: 10px;
+    }
+    .portfolio-link {
+        width: 100px;
+    }
 }
