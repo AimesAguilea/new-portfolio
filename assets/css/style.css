@@ -10,6 +10,7 @@ body {
 }
 
 #block-one {
+    text-align: center;
     height: 20px;
     width: 100px;
     float: right;
@@ -20,6 +21,7 @@ body {
     /* box-shadow: 3px 3px rgb(255, 188, 62); */
 }
 #block-two {
+    text-align: center;
     height: 20px;
     width: 100px;
     float: right;
@@ -29,6 +31,7 @@ body {
     box-shadow: 3px 3px #727171;
 }
 #block-three {
+    text-align: center;
     height: 20px;
     width: 100px;
     float: right;
@@ -38,15 +41,15 @@ body {
     box-shadow: 3px 3px #727171;
 }
 
-#block-one:hover {
-    padding-bottom: 225px;
+/* #block-one:hover {
+    padding-bottom: 150px;
 }
 #block-two:hover {
-    padding-bottom: 175px;
-}
-#block-three:hover {
     padding-bottom: 125px;
 }
+#block-three:hover {
+    padding-bottom: 100px;
+} */
 
 h1 {
     color: white;
