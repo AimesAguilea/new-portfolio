@@ -11,6 +11,7 @@ body {
 
 #block-one {
     text-align: center;
+    color: black;
     height: 20px;
     width: 100px;
     float: right;
@@ -21,6 +22,7 @@ body {
 }
 #block-two {
     text-align: center;
+    color: black;
     height: 20px;
     width: 100px;
     float: right;
@@ -31,6 +33,7 @@ body {
 }
 #block-three {
     text-align: center;
+    color: black;
     height: 20px;
     width: 100px;
     float: right;
