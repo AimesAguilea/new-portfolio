@@ -72,8 +72,9 @@ h1 {
     width: 500px;
     float: left;
     color: white;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin-top: 230px;
+    margin-top: 300px;
 }
 
 #about-me {
