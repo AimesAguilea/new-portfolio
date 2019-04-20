@@ -86,7 +86,7 @@ h1 {
 #port-link-holder {
     height: 200px;
     width: 700px;
-    float: left;
+    float: right;
 }
 
 .portfolio-link {
@@ -116,8 +116,8 @@ a.linkedIn-direct {
 }
 
 #gitHub-links {
-    margin-top: -30px;
-    margin-left: 720px;
+    margin-top: -80px;
+    margin-left: 10px;
     float: left;
     color: white;
 }
@@ -223,7 +223,7 @@ label {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
     #block-one {
         width: 50px;
     }
@@ -250,4 +250,17 @@ label {
     .portfolio-link {
         width: 100px;
     }
+    #gitHub-links {
+        clear: left;
+        color: white;
+    }
+    .portfolio-link {
+        height: 20px;
+        width: 200px;
+        background-color: white;
+        margin-top: 50px;
+        margin-left: 10px;
+        box-shadow: 3px 3px #727171;
+    }
+
 }
